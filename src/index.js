@@ -3,7 +3,7 @@ const incre = () => {
   results.textContent = Number(results.textContent) + 1;
 };
 
-main = ()=> {
+const main = ()=> {
   const incrementorButton = document.querySelector('#add-one')
   incrementorButton.addEventListener('click', incre)
 };
